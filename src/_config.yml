@@ -1,0 +1,7 @@
+collections:
+    people:
+        output: true
+    projects:
+        output: true
+
+

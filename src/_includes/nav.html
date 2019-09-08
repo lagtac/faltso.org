@@ -1,4 +1,5 @@
-{% for item in site.data.nav %}
-<a href="http://www.url.com" target="_blank">{{ item }}</a>
-{% endfor %}
-
+<ul class="flex m-0 list-none list-outside p-0">
+	{% for item in site.data.nav %}
+	<li class="flex-none mr-6"><a href="{{ item.url }}" >{{ item.name }}</a></li>
+	{% endfor %}
+</ul>

@@ -3,9 +3,37 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width" />
+		<link rel="stylesheet" href="/assets/css/build.css" type="text/css" media="screen" title="no title" charset="utf-8">
 		<title>{{ title }}</title>
 	</head>
-	<body>
-		{{ content }}
+	<body class="font-mono text-base">
+		<div class="w-full bg-orange-400 h-full">
+
+			<div class="container mx-auto md:w-3/5 p-6 border-0 bg-white">
+				<header class="header flex items-end">
+					<img class="logo flex-none object-contain w-10 mr-6" src="/assets/img/Rwilco2.png" alt="Roger Wilco from Space Quest 2. https://gamicus.gamepedia.com/Roger_Wilco"/>
+					<nav class="site_nav flex-none">
+						{% include nav.html %}
+					</nav>
+				</header>
+			</div>
+			<div class="container mx-auto md:w-3/5 p-6 border bg-white">
+				<main class="main">
+					{% if page.image %}
+					<img class="page_image" src="{{ page.image}}" alt="{{ page.image_alt_text }}"/>
+					{% endif %}
+					{% if page.title  %}
+					<h1 class="page_title text-2xl font-bold mt-6 mb-6 ">{{ page.title }}</h1>
+					{% endif %}
+					{{ content }}
+				</main>
+			</div>
+			<div class="container mx-auto md:w-3/5 p-6 border bg-white">
+				<footer class="footer flex justify-center">
+					{% include footer.html %}
+				</footer>	
+			</div>
+		</div>
 	</body>
 </html>
+

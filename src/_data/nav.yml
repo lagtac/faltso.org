@@ -1,4 +1,8 @@
-- Αρχική
-- Τι κάνουμε
-- Επικοινωνία
-- Μπλογκ
+- name: Αρχική
+  url: /
+- name: Τι κάνουμε
+  url: /projects
+- name: Επικοινωνία
+  url: /contact
+- name: Μπλογκ
+  url: /blog

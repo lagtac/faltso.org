@@ -1,0 +1,25 @@
+@tailwind base;
+
+p, ul, ol { 
+	@apply mb-6;
+}
+
+h1 {
+	@apply text-2xl font-bold mt-6 mb-6;
+}
+
+h2 {
+	@apply text-xl font-bold mt-5 mb-5;
+}
+
+ul {
+	@apply list-disc list-inside pl-6;
+}
+
+@tailwind components;
+
+.highlighter-rouge {
+	@apply mb-6 border;
+}
+
+@tailwind utilities;
