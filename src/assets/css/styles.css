@@ -4,6 +4,10 @@ p, ul, ol {
 	@apply mb-6;
 }
 
+h1, h2, h3 {
+	@apply font-serif tracking-wide;
+}
+
 h1 {
 	@apply text-2xl font-bold mt-6 mb-6;
 }
@@ -16,10 +20,30 @@ ul {
 	@apply list-disc list-inside pl-6;
 }
 
+a { 
+	@apply text-indigo-600;
+}
+
+a:hover { 
+	@apply underline
+}
+
+a:visited {
+	@apply text-purple-600;
+}
+
+/****************
+*  Components  *
+****************/
+
 @tailwind components;
 
 .highlighter-rouge {
 	@apply mb-6 border;
 }
+
+/***************
+*  Utilities  *
+***************/
 
 @tailwind utilities;

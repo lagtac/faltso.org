@@ -5,3 +5,5 @@ _site/
 Gemfile.lock
 /assets
 package-lock.json
+build
+build.*
