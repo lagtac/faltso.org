@@ -1,7 +1,12 @@
+name: faltso.org
+email: info&#64;faltso.com
+
 collections:
     people:
         output: true
     projects:
         output: true
-
-
+        order: 
+            - rock-ensemble.md
+            - music-programming.md
+            - choir.md

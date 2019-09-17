@@ -1,13 +1,10 @@
 - name: Μουσική & Προγραμματισμός Η/Υ
-  url: /projects/music-programming
-  order: 1
-- name: Παιδική Χορωδία
-  url: /projects/choir
+  url: /projects/music-programming.html
   order: 2
-- name: Σχολή Ροκ
-  url: /projects/school-of-rock
+- name: Παιδική Χορωδία
+  url: /projects/choir.html
   order: 3
-- name: Εκπαιδευτικό Δράμα "Μήνες"
-  url: /projects/months
-  order: 4
+- name: Σχολή Ροκ
+  url: /projects/rock-ensemble.html
+  order: 1
 

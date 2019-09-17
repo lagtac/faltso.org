@@ -1,7 +1,13 @@
+/* pygments styles for rouge highlighter */
+@import url(manni.css);
+.highlighter-rouge {
+	margin-bottom: 1.5rem;
+}
+
 @tailwind base;
 
 p, ul, ol { 
-	@apply mb-6;
+	@apply mb-5;
 }
 
 h1, h2, h3 {
@@ -38,12 +44,9 @@ a:visited {
 
 @tailwind components;
 
-.highlighter-rouge {
-	@apply mb-6 border;
-}
-
 /***************
 *  Utilities  *
 ***************/
 
 @tailwind utilities;
+

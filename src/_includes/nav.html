@@ -1,5 +1,5 @@
-<ul class="flex m-0 list-none list-outside p-0">
+<ul class="flex flex-wrap w-1/3 md:w-full m-0 list-none list-outside p-0">
 	{% for item in site.data.nav %}
-	<li class="flex-none mr-6"><a href="{{ item.url }}" >{{ item.name }}</a></li>
+	<li class="flex-none  mr-6"><a class="font-bold  text-black visited:text-black" href="{{ item.url }}" >{{ item.name }}</a></li>
 	{% endfor %}
 </ul>

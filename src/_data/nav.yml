@@ -1,8 +1,8 @@
 - name: Αρχική
   url: /
-- name: Τι κάνουμε
-  url: /projects
+- name: Φάλτσο;
+  url: /about.html
 - name: Επικοινωνία
-  url: /contact
+  url: /contact.html
 - name: Μπλογκ
-  url: /blog
+  url: /blog.html
