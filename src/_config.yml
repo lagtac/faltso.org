@@ -10,3 +10,5 @@ collections:
             - rock-ensemble.md
             - music-programming.md
             - choir.md
+
+keep_files: ["assets/css/build.css"]

@@ -10,6 +10,10 @@ p, ul, ol {
 	@apply mb-5;
 }
 
+ul, ol {
+	@apply pl-5 list-disc list-inside;
+}
+
 h1, h2, h3 {
 	@apply font-serif tracking-wide;
 }
