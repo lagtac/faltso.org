@@ -3,11 +3,7 @@ module.exports = {
   css: ['src/_site/assets/css/build.css'],
   extractors: [
     {
-      extractor: class {
-        static extract(content) {
-          return content.match(/[A-z0-9-:\/]+/g) || []
-        }
-      },
+      extractor: content => content.match(/[A-z0-9-:\/]+/g) || [],        
       extensions: ['html']
     }
   ]
