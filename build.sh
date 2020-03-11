@@ -1,5 +1,13 @@
 #! /usr/bin/bash
 
+if [ -n $FALTSO_BUILD_PATH ]; then
+	build_target=$FALTSO_BUILD_PATH; 
+else
+	echo "FALTSO_BUILD_PATH not set or null, exiting."
+	exit $?
+fi
+
+
 echo Building css
 
 npx tailwind build ./src/assets/css/styles.css -c ./tailwind.config.js -o ./src/_site/assets/css/build.css 
