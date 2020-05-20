@@ -1,5 +1,6 @@
 name: faltso.org
 email: info&#64;faltso.com
+timezone: Greece/Athens
 
 collections:
     people:
@@ -12,3 +13,12 @@ collections:
             - choir.md
 
 keep_files: ["assets/css/build.css"]
+
+defaults:
+    -
+        scope:
+            path: ""
+            type: "posts"
+        values:
+            layout: "blog"
+
