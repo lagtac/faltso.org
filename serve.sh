@@ -1,3 +1,3 @@
 #! /usr/bin/bash
 
-bundle exec jekyll serve -s src/ -d src/_site
+bundle exec jekyll serve --quiet --livereload --watch -s src/ -d src/_site
