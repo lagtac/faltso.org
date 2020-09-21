@@ -9,7 +9,7 @@
   "author": "lagtac",
   "license": "ISC",
   "devDependencies": {
-    "tailwindcss": "^1.2.0"
+    "tailwindcss": "^1.2.0",
     "purgecss": "^1.4.0"
   }
 }
