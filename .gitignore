@@ -9,3 +9,4 @@ build
 build.*
 TODO.txt
 vendor/
+node_modules/

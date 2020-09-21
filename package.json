@@ -8,8 +8,8 @@
   },
   "author": "lagtac",
   "license": "ISC",
-  "dependencies": {
-    "purgecss": "^1.4.0",
-    "tailwindcss": "^1.1.2"
+  "devDependencies": {
+    "tailwindcss": "^1.2.0"
+    "purgecss": "^1.4.0"
   }
 }
