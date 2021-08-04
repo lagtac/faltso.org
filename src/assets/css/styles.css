@@ -1,32 +1,55 @@
+---
+---
+
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
 /* pygments styles for rouge highlighter */
-@import url(manni.css);
+/*@import url(./manni.css);*/
+
 .highlighter-rouge {
 	margin-bottom: 1.5rem;
 	border: 1px dotted #444;
 	padding: 5px;
 	background-color: #efefee;
+	overflow-x: scroll;
+	overflow-y: hidden;
 }
 
-@tailwind base;
+@layer base {
+	
+pre {
+	tab-size: 2;
+    -moz-tab-size: 2;
+}
 
 p, ul, ol { 
-	@apply mb-5;
+	@apply mb-10;
 }
 
 ul, ol {
 	@apply pl-5 list-disc list-inside;
 }
 
-h1, h2, h3 {
+h1, h2, h3, h4 {
 	@apply font-serif tracking-wide;
 }
 
 h1 {
-	@apply text-2xl font-bold mt-6 mb-6;
+	@apply text-xl md:text-2xl font-bold mt-5 mb-3;
 }
 
 h2 {
-	@apply text-xl font-bold mt-5 mb-5;
+	@apply text-lg md:text-xl font-bold mt-7 mb-3;
+}
+
+h3 {
+	@apply text-base md:text-lg font-bold mt-7 mb-3;
+}
+
+h4 {
+	@apply text-base font-bold mt-5 mb-3;
 }
 
 ul {
@@ -34,7 +57,7 @@ ul {
 }
 
 a { 
-	@apply text-indigo-600;
+	@apply text-blue-400 font-bold;
 }
 
 a:hover { 
@@ -42,18 +65,23 @@ a:hover {
 }
 
 a:visited {
-	@apply text-purple-600;
+	@apply text-blue-500 font-bold;
 }
 
-/****************
-*  Components  *
-****************/
+hr {
+	border: 1px dashed #000;
+	@apply m-12;
+}
+}
 
-@tailwind components;
+@layer components {
 
-/***************
-*  Utilities  *
-***************/
+.container {
+	@apply mx-auto bg-transparent;
+}
 
-@tailwind utilities;
+.header {
+	@apply mx-auto flex;
+}
 
+}
