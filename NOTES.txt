@@ -1,0 +1,13 @@
+# Specs
+images
+
+medium	384
+large	768
+
+# Usefull commands
+
+Resize images
+
+convert *.jpg -size 351 -set %[filename:basename] %[basename] "%[filename:basename]-thumb.jpg"
+convert *.jpg -thumbnail -350 ....
+

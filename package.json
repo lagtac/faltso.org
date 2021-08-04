@@ -2,14 +2,27 @@
   "name": "faltso.org",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "purgecss.config.js",
+  "dependencies": {},
+  "devDependencies": {
+    "@tailwindcss/typography": "^0.4.1",
+    "autoprefixer": "^10.3.1",
+    "cssnano": "^5.0.7",
+    "postcss": "^8.3.6",
+    "postcss-import": "^14.0.2",
+    "tailwindcss": "^2.2.7"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "lagtac",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lagtac/faltso.org.git"
+  },
+  "author": "",
   "license": "ISC",
-  "dependencies": {
-    "purgecss": "^1.4.0",
-    "tailwindcss": "^1.1.2"
-  }
+  "bugs": {
+    "url": "https://github.com/lagtac/faltso.org/issues"
+  },
+  "homepage": "https://github.com/lagtac/faltso.org#readme"
 }
