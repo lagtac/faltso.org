@@ -1,0 +1,12 @@
+---
+layout: default
+---
+
+<div class="image-grid">
+	{% assign items = site.static_files | where: "image", true %}
+	{% for i in items %}
+	<h3>{{ i.name }}</h3>
+	<img src="{{ i.path }}" />
+	{% endfor %}
+</div>
+

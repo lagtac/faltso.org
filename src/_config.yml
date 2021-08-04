@@ -1,5 +1,47 @@
 name: faltso.org
-email: info&#64;faltso.com
+email: info&#64;faltso.gr
+timezone: Greece/Athens
+
+markdown: kramdown
+highlighter: rouge
+
+kramdown:
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    block:
+      line_numbers: false
+      start_line: 1
+      
+keep_files: []
+page_excerpts: true
+
+defaults:
+        - scope:
+            path: ""
+            type: "pages"
+          values:
+            layout: "default"
+        - scope:
+            path: ""
+            type: "people"
+          values:
+            layout: "person"
+            nohero: true
+        - scope:
+            path: ""
+            type: "posts"
+          values:
+            layout: "post"
+            excerpt_separator: <!--more-->
+        - scope:
+            path: "assets/img"
+          values:
+            image: true
+        
+          
+plugins:
+        - jekyll-postcss
+
 
 collections:
     people:
@@ -7,8 +49,8 @@ collections:
     projects:
         output: true
         order: 
-            - rock-ensemble.md
-            - music-programming.md
-            - choir.md
+            - rock-band/index.md
+            - music-play/index.md
+            - group-singing/index.md
+            - computer-music/index.md
 
-keep_files: ["assets/css/build.css"]
