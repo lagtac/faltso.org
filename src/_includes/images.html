@@ -1,0 +1,33 @@
+{% comment %}
+Include params:
+	- src
+	- width
+	- class_0
+	- class_1
+	- class_2
+{% endcomment %}
+
+{% assign images_br = include.src | newline_to_br %}
+{% assign images = images_br | split: "<br />" %}
+
+{% assign width = "full" %}
+
+{% if images.first and images.size > 2 %}
+	{% assign images = images  | pop  %}
+	{% assign images = images  | shift %}
+	{% assign width = "1/2" %}
+{% endif %}
+
+{% if include.width  %}
+	{% assign width = include.width %}
+{% endif %}
+
+
+<div class="images flex flex-wrap -mx-2 mb-5 {{ include.class_0 }} ">
+	{% for item in images %}
+		{% assign i = item | split: "," %}
+		<div class="w-full md:w-{{ width }} px-2 my-2 {{ include.class_1 }}">
+			<img  src="{{ i[0] }}" alt="{{ i[1] }}" title="{{ i[1] }}" class="mx-auto {{ include.class_2 }}" />
+		</div>
+	{% endfor %}
+</div>

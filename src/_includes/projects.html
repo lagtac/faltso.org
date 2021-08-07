@@ -1,5 +1,6 @@
 <ul class="projects mb-6 list-disc list-inside pl-6">
 	{% for item in site.projects %}
+	{% if item.nolist %}{% continue %}{% endif %}
 	<li><a href="{{ item.url }}">{{ item.title }}</a></li>
 	{% endfor %}
 </ul>

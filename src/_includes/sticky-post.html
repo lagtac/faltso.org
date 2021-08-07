@@ -1,0 +1,5 @@
+<div class="p-5 bg-green-100">
+{% assign sticky = site.posts | find_exp: "item", "item.tags contains 'sticky'" %}
+<h3 class="mt-0"><a href="{{ sticky.url }}">{{ sticky.title }}</a></h3>
+{{sticky.excerpt}}
+</div>

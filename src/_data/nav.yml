@@ -1,8 +1,18 @@
 - name: Αρχική
   url: /
+  id: home
 - name: Φάλτσο;
   url: /about.html
+  id: about
+- name: Ομάδα
+  url: /team.html
+  id: team
+- name: Δράσεις
+  url: /projects/index.html
+  id: projects
+- name: Μπλοργκ
+  url: /blog.html
+  id: blog
 - name: Επικοινωνία
   url: /contact.html
-- name: Μπλογκ
-  url: /blog.html
+  id: contact
