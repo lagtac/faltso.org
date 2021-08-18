@@ -1,10 +1,9 @@
+public/
+public-dev/
 _site/
 .sass-cache/
 .jekyll-cache/
 .jekyll-metadata
-Gemfile.lock
-/assets
-package-lock.json
-build
-build.*
-TODO.txt
+vendor/
+node_modules/
+**.swp
