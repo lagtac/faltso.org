@@ -34,6 +34,10 @@ defaults:
             layout: "person"
             nohero: true
         - scope:
+            path: "assets/css"
+          values:
+            layout: "styles"
+        - scope:
             path: "/assets/img"
           values:
             image: true
