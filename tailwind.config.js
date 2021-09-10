@@ -1,13 +1,18 @@
 module.exports = {
   purge: [
-    './src/**/*.html',
-    './src/**/*.md',
     './src/*.md',
     './src/*.html',
+    './src/**/*.html',
+    './src/**/*.md',
   ],
   darkMode: false,
   theme: {
-    extend: {},
+    extend: {
+		backgroundImage: theme => ({
+			"site-pattern": "url('/assets/img/Rwilco2.png')",
+			"logo-image": "url('/assets/img/faltso-2.jpg')",
+		})
+	},
   },
   variants: {
 	  extend: {
