@@ -1,7 +1,3 @@
----
-layout: default
-title: Καλως ήλθατε στο Φάλτσο
----
 
 <section class="prologue flex flex-wrap flex-col md:flex-row justify-between items-stretch space-y-10 md:space-y-0  md:space-x-10  mb-10">
 
@@ -61,7 +57,9 @@ title: Καλως ήλθατε στο Φάλτσο
 
 <h3><a href="{{ p.url }}">{{ p.title }}</a></h3>
 {% if p.description %}
-{{ p.description }}
+
+<p>{{ p.description }}</p>
+
 {% else %}
 {{ p.excerpt }}
 {% endif %}
