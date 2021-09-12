@@ -1,0 +1,17 @@
+---
+title: Οι Δράσεις Μας
+layout: default
+nolist: true
+---
+
+<ul class="projects mb-6 list-none list-outside p-0">
+	{% for item in site.projects %}
+	{% if item.nolist %} {% continue %} {% endif %}
+	<li class="mb-10">
+		<h2><a href="{{ item.url }}">{{ item.title }}</a></h2>
+		<img class="block mb-5" src="{{item.image}}" />
+		<p>{{ item.excerpt | strip_html }} </p>
+	</li>
+	{% endfor %}
+</ul>
+
