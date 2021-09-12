@@ -1,6 +1,6 @@
 ---
-title: Βίβιαν Κραβαρίτη
-name: Κραβαρίτη, Βίβιαν
+title: Βίβιαν Κραββαρίτη
+name: Κραββαρίτη, Βίβιαν
 image: /people/vivian-kravariti-2.jpg
 ---
 
