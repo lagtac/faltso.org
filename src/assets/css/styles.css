@@ -84,4 +84,8 @@ hr {
 	@apply mx-auto flex;
 }
 
+.footer * {
+@apply text-sm font-mono m-0 text-white;
+}
+
 }

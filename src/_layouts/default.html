@@ -58,9 +58,16 @@
 	    </div>
 	    <!-- flex-auto (or flex-1) in the above div makes it stretch as long as it can. This makes the footer stick to the bottom. The parent container has a specified min height of 100vh. -->
 	    <div class="container bg-transparent md:px-20 lg:px-40 ">
-		<footer class="footer flex justify-center p-10 bg-black border-0 border-white">
-		    <section class="copyright">
-				<p class="text-sm font-mono m-0 text-white">&copy; {{ site.time | date: "%Y" }} - Faltso</p>
+		<footer class="footer flex flex-col p-10 bg-black border-0 border-white">
+			<section class="social">
+			<h3 class="underline mb-3">Φάλτσο Κοινωνικής Δικτύωσης</h3>
+			<ul class="list-outside list-none px-0">
+				<li><a href="https://facebook.com/faltsoart" target="_blank">Faltso @ Facebook</a></li>
+				<li><a href="https://instagram.com/faltso_art" target="_blank">Faltso @ Instagram</a></li>
+				</ul>
+			</section>
+		    <section class="copyright pt-10">
+				<p class="text-center">&copy; {{ site.time | date: "%Y" }} - Faltso</p>
 			</section>
 		</footer>
 	    </div>
