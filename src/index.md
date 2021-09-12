@@ -18,7 +18,7 @@ title: Καλως ήλθατε στο Φάλτσο
 <div class="flex-1 p-5 bg-purple-50 border-4 border-purple-400 border-double shadow-lg">
 	<h3 class="text-purple-600 text-sm mt-0">Πρόγραμμα 2021-2022</h3>
 	<div style="">
-		<a href="{% post_url 2021-08-05-rock-hotel %}"><img src="/projects/rock-hotel/hauntedhotel-384.png" /></a>
+		<a href="{% post_url 2021-08-05-rock-hotel %}"><img src="/projects/rock-hotel/img/hauntedhotel-384.png" /></a>
 		<div style="" class="py-3">
 			<h4 class="inline-block mt-0 bg-white ring-0 ring-gray-200 p-1"><a href="{% post_url 2021-08-05-rock-hotel %}">Ροκ Ξενοδοχείο</a></h4>
 			<span class="block bg-white  ring-0 ring-gray-200  p-1">Μια μουσική παράσταση φτιαγμένη από παιδιά, για μικρούς και μεγάλους.</span>

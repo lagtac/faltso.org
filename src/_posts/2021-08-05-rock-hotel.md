@@ -1,7 +1,7 @@
 ---
 title: Ροκ Ξενοδοχείο
 tags: sticky rock-band musical
-image: /projects/rock-hotel/hauntedhotel-cover.png
+image: /projects/rock-hotel/img/hauntedhotel-cover.png
 published: true
 description: "Για Παιδιά και Εφήβους. Η ομάδα  Φάλτσο ετοιμάζει την νέα της παράσταση  με τίτλο **Ροκ Ξενοδοχείο**  και σας καλεί να συμμετέχετε  στη δημιουργία  της! Μια φορά την εβδομάδα θα συναντιόμαστε  για πρόβα και στο τέλος  της χρονιάς,  το καλοκαίρι,  θα παίξουμε τη παράσταση μας."
 ---
