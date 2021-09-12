@@ -1,3 +1,7 @@
+---
+layout: default
+title: Καλως ήλθατε στο Φάλτσο
+---
 
 <section class="prologue flex flex-wrap flex-col md:flex-row justify-between items-stretch space-y-10 md:space-y-0  md:space-x-10  mb-10">
 

@@ -8,11 +8,9 @@ image: assets/img/writing.jpg
 	<li>
 		<h3><a href="{{ item.url }}" >{{ item.title }}</a> - {{ item.date | date_to_string }}</h3>
 {% if item.description %}
-
 <p>{{ item.description }}</p>
-
 {% else %}
-		{{ item.excerpt }}
+	{{ item.excerpt }}
 {% endif %}
 	</li>
 	{% endfor %}
