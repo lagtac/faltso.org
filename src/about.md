@@ -45,7 +45,7 @@ title: Φάλτσο;
 {% for p in people  %}
 <div class="w-1/2 p-2">
 <div class="p-3 bg-purple-50 border-2 border-purple-100 ">
-	<a href="{{ p.url }}"><img src="{{ p.image }}" alt="{{ p.title }}" /></a>
+	<a href="{{ p.url | relative_url }}"><img src="{{ p.image | relative_url }}" alt="{{ p.title }}" /></a>
 	<h3 class="m-0 mt-1 truncate text-{{colors | sample: 4 | sample}}-600">{{ p.title }}</h3>
 </div>
 </div>

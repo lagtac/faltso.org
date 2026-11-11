@@ -8,5 +8,5 @@ Arguments:
 {% endcomment %}
 <dl class="p-5 mb-10 flex justify-around">
 <dt>{{ include.text }} &#8594; </dt>
-<dd><a href="{{ include.url }}" class="fancy-button whitespace-nowrap rounded-lg ring-2 p-5 {{ include.bg }} text-white visited:text-white font-bold shadow-lg hover:bg-red-500 ">&#{{ include.emoji }}; {{ include.label }}</a></dd>
+<dd><a href="{{ include.url | relative_url }}" class="fancy-button whitespace-nowrap rounded-lg ring-2 p-5 {{ include.bg }} text-white visited:text-white font-bold shadow-lg hover:bg-red-500 ">&#{{ include.emoji }}; {{ include.label }}</a></dd>
 </dl>

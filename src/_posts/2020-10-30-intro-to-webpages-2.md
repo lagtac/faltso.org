@@ -54,7 +54,7 @@ image: "/assets/img/web/HTML-Icon-Final.png"
 	-Η παραγγελία σας είναι έτοιμη!
 	-Ευχαριστώ!
 
-<img src="/assets/img/web/burger-4955630_640.png" title="Image by https://pixabay.com/users/brightlynx-11842624">
+<img src="{{ site.baseurl }}/assets/img/web/burger-4955630_640.png" title="Image by https://pixabay.com/users/brightlynx-11842624">
 
 
 Κάπως έτσι δουλεύει το internet: 

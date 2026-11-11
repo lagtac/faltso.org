@@ -47,6 +47,9 @@ plugins:
         - jekyll-postcss
 
 
+url: "https://lagtac.github.io"
+baseurl: "/faltso.org"
+
 collections:
     people:
         output: true
