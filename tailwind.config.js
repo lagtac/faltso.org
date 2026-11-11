@@ -9,8 +9,8 @@ module.exports = {
   theme: {
     extend: {
 		backgroundImage: theme => ({
-			"site-pattern": "url('/assets/img/Rwilco2.png')",
-			"logo-image": "url('/assets/img/faltso-2.jpg')",
+			"site-pattern": "url('../img/Rwilco2.png')",
+			"logo-image": "url('../img/faltso-2.jpg')",
 		})
 	},
   },
