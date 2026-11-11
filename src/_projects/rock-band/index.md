@@ -9,7 +9,7 @@ image: /projects/rock-band/img/rock-explorers-1-768x300_768x298.jpg
 Η ροκ μουσική είναι ελεύθερη από κανόνες και "πρέπει", και όμως πλέον είναι ένα είδος που ανήκει στην παγκόσμια [μουσική ιστορία] με σημαντικό και [τεράστιο ρεπερτόριο]. Η ροκ  συντονίζεται με την ψυχή κάθε νέας γενιάς και όσοι μεγάλωσαν μαζί της φυλάνε μέσα της ένα κομμάτι της νεαρής τους ηλικίας. Είναι η μουσική που σε προσκαλεί όχι μόνο να την ακούσεις αλλά να την παίξεις και να την τραγουδήσεις με όποιο τρόπο θέλεις και μπορείς.
 __[Με όποιο τρόπο θέλεις και μπορείς!][jack black]__
 
-![rock-explorers-concert-2021](/projects/rock-band/img/rock-explorers-concert-poster-2021-square.jpg)
+![rock-explorers-concert-2021]({{ site.baseurl }}/projects/rock-band/img/rock-explorers-concert-poster-2021-square.jpg)
 	
 Καλούμε όποιο παιδί παίζει κάποιο μουσικό όργανο ή τραγουδάει, να έρθει για να φτιάξουμε όλοι μαζί μια ΡΟΚ μπάντα. 
 
@@ -33,7 +33,7 @@ __Σημαντικό:__ Ακόμα και αν δεν παίζεις κάποι�
 {% endcapture %}
 {% include images.html src=images class_0="print-hidden" %}
 
-<img src="/projects/rock-band/img/211947893_927655598026296_5517106127966068864_n_800x350.jpg" />
+<img src="{{ site.baseurl }}/projects/rock-band/img/211947893_927655598026296_5517106127966068864_n_800x350.jpg" />
 
 {% include contact_us.html %}
 

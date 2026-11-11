@@ -19,7 +19,7 @@ title: Σκέψεις για την ηλεκτρονικη μουσική
 έπεφταν μπαταρίες κατέβαινε η ταχύτητα περιστροφής της ταινίας και έτσι όλα
 ακούγονταν χαμηλότερα, εντάσεις και τόνοι μέχρι το walkman να σταματήσει να δουλεύει.
 
-![sony walkman](/assets/img/web/sony_wm_fx421_walkman-1387018.jpg!d.jpg)
+![sony walkman]({{ site.baseurl }}/assets/img/web/sony_wm_fx421_walkman-1387018.jpg!d.jpg)
 
 Η ηλεκτρονική μουσική (ΗΜ) έχει κάτι που με φέρνει πιο κοντά σε εκείνη την
 εμπειρία που είχα όταν ήμουν παιδί. Τώρα, η ΗΜ δεν είναι ενιαία. Αντίθετα, έχει
@@ -60,7 +60,7 @@ Orbital](//www.discogs.com/Orbital-In-Sides/master/23336). Είναι Breakbeat 
 
 Αν τα μόνα ακούσματα που είχες ως τότε ήταν ηλεκτρικές κιθάρες και γενικά Rock, Blues, Dylan, Doors και Led Zeppelin αυτή η μουσική σου άνοιγε μια πόρτα σε ένα μαγικό <del>λαβλύρινθο</del> λαβύρινθο.
 
-<img src="/assets/img/MPW-39960-270x400.jpg" style="margin: 0 auto" />
+<img src="{{ site.baseurl }}/assets/img/MPW-39960-270x400.jpg" style="margin: 0 auto" />
 
 <hr/>
 

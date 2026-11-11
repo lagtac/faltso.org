@@ -3,4 +3,4 @@
 	{% assign title = include.alt %}
 {% endunless %}
 
-<img  src="{{ include.src }}" alt="{{ title }}" title="{{ title }}"  />
+<img  src="{{ include.src | strip | relative_url }}" alt="{{ title }}" title="{{ title }}"  />

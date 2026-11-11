@@ -3,7 +3,7 @@
     <head>
 	<meta charset="UTF-8" />
 	<meta name="viewport" content="width=device-width" />
-	<link rel="stylesheet" href="/assets/css/styles.css" type="text/css" media="screen" title="no title" charset="utf-8">
+	<link rel="stylesheet" href="{{ '/assets/css/styles.css' | relative_url }}" type="text/css" media="screen" title="no title" charset="utf-8">
 	<title>{{ page.title }} - {{ site.name }}</title>
 	<style>
 .print-only {
@@ -22,8 +22,8 @@
     <body class="font-sans text-base overflow-y-scroll">
 	<div class="w-full min-h-screen bg-site-pattern bg-yellow-200 bg-blend-luminosity" >
 		<header class="container md:px-20 lg:px-40 md:py-10 header flex items-start justify-between border-0 border-white bg-transparent ">
-			<a href="/" class="site_logo bg-logo-image flex-shrink-0 block rounded-full border-2 border-yellow-600 text-transparent overflow-hidden w-24 h-24 bg-cover bg-left"
-			style="background-image: url(/assets/img/faltso-2.jpg)" title="Ο Μάριος το ζωγράφισε!">Faltso
+			<a href="{{ '/' | relative_url }}" class="site_logo bg-logo-image flex-shrink-0 block rounded-full border-2 border-yellow-600 text-transparent overflow-hidden w-24 h-24 bg-cover bg-left"
+			style="background-image: url({{ '/assets/img/faltso-2.jpg' | relative_url }})" title="Ο Μάριος το ζωγράφισε!">Faltso
 			</a>
 			<nav class="site_nav  justify-end flex">
 
@@ -39,14 +39,14 @@
 						{% assign text_color = "text-yellow-100 visited:text-yellow-100" %}
 					{% endif %}
 					<li class="flex-none ml-3 mb-1 {{ bg_color }}  border-2 border-yellow-600 transform {{ angle | sample }}">
-						<a class="block p-1 font-bold {{ text_color }}" href="{{ item.url }}" >{{ item.name }}</a></li>
+						<a class="block p-1 font-bold {{ text_color }}" href="{{ item.url | relative_url }}" >{{ item.name }}</a></li>
 					{% endfor %}
 				</ul>
 			</nav>
 		</header>
 	    <div class="container bg-transparent md:px-20 lg:px-40">
 			{% if page.image and page.nohero != true %}
-				<img class="page_image" src="{{ page.image}}" alt="{{ page.image_alt_text }}"/>
+				<img class="page_image" src="{{ page.image | relative_url }}" alt="{{ page.image_alt_text }}"/>
 		    {% endif %}
 			<main class="main bg-gray-50 p-10 shadow-lg">
 				{% if page.title  %}

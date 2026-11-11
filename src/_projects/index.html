@@ -8,8 +8,8 @@ nolist: true
 	{% for item in site.projects %}
 	{% if item.nolist %} {% continue %} {% endif %}
 	<li class="mb-10">
-		<h2><a href="{{ item.url }}">{{ item.title }}</a></h2>
-		<img class="block mb-5" src="{{item.image}}" />
+		<h2><a href="{{ item.url | relative_url }}">{{ item.title }}</a></h2>
+		<img class="block mb-5" src="{{ item.image | relative_url }}" />
 		<p>{{ item.excerpt | strip_html }} </p>
 	</li>
 	{% endfor %}

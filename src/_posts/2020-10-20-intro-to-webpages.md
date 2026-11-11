@@ -17,7 +17,7 @@ image: "/assets/img/web/HTML-Icon-Final.png"
 
 ## Από την οθόνη στο χαρτί
 
-![sketch of a gloomy dude](/assets/img/gloomy-dude.jpg)
+![sketch of a gloomy dude]({{ site.baseurl }}/assets/img/gloomy-dude.jpg)
 
 Έχω τετράδιο, έχω στυλό. Έχω έχω έχω... έχω ιδέες. Ωραία, έχω πάμπολλες εικόνες στον υπολογιστή. Τι να τις κάνω;
 Τις εκτυπώνω σε χαμηλή ανάλυση, συνήθως 4 - 6 σε ένα χαρτί Α4. Έτσι, όταν σημειώνω βλακειούλες στο τετράδιό μου,
@@ -35,8 +35,8 @@ image: "/assets/img/web/HTML-Icon-Final.png"
 Ας φορτώσουμε μια οποιαδήποτε ιστοσελιδα στον browser μας. Ας πούμε αυτό: [https://krofork.neocities.org/](). Μπορούμε εύκολα να ανακαλύψουμε πως έχει κατασκευαστεί αυτή η σελίδα: κάνουμε δεξί κλικ σε μια περιοχή της σελίδας που δεν έχει εικόνα και στο μενού που ανοίγει
 επιλέγουμε *[View Page Source]*. Εναλλακτικά, πατάμε *Ctrl+U* στο πληκτρολόγιο για να ενεργοποιήσουμε αυτή την εντολή.
 
-![Notepad](/assets/img/snaps/view-source.png)
-![Notepad](/assets/img/snaps/view-source-2.png)
+![Notepad]({{ site.baseurl }}/assets/img/snaps/view-source.png)
+![Notepad]({{ site.baseurl }}/assets/img/snaps/view-source-2.png)
 
 Ο κώδικας που εμφανίζεται στην οθόνη μας ονομάζεται HTML (Hyper Text Markup Language)
 και είναι οι οδηγίες που διαβάζει ο browser για να ζωγραφίσει την ιστοσελίδα που βλέπουμε. 
@@ -53,7 +53,7 @@ image: "/assets/img/web/HTML-Icon-Final.png"
 
 Αρχικά θα χρειαστούμε έναν απλό σημειωματάριο όπως είναι το Notepad στα Windowzzz.
 
-![Notepad](/assets/img/snaps/notepad.png)
+![Notepad]({{ site.baseurl }}/assets/img/snaps/notepad.png)
 
 Αυτά!
 
@@ -116,8 +116,8 @@ figure > * { width: 100%; }
 </style>
 
 <figure>
-<img src="/assets/img/web/mr.meeseeks.jpg" alt="I am mr. meeseeks">
-<audio controls src="/assets/audio/mr.meeseeks.ogg" type="audio/ogg">audio is not supported</audio>
+<img src="{{ site.baseurl }}/assets/img/web/mr.meeseeks.jpg" alt="I am mr. meeseeks">
+<audio controls src="{{ site.baseurl }}/assets/audio/mr.meeseeks.ogg" type="audio/ogg">audio is not supported</audio>
 </figure>
 
 ## Επικεφαλίδες

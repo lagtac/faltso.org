@@ -27,7 +27,7 @@ Include params:
 	{% for item in images %}
 		{% assign i = item | split: "," %}
 		<div class="w-full md:w-{{ width }} px-2 my-2 {{ include.class_1 }}">
-			<img  src="{{ i[0] }}" alt="{{ i[1] }}" title="{{ i[1] }}" class="mx-auto {{ include.class_2 }}" />
+			<img  src="{{ i[0] | strip | relative_url }}" alt="{{ i[1] | strip }}" title="{{ i[1] | strip }}" class="mx-auto {{ include.class_2 }}" />
 		</div>
 	{% endfor %}
 </div>
